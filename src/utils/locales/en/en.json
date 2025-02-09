@@ -87,11 +87,11 @@
 
 ,"basicBtn":"Go Basic"
 ,"plusBtn":"Go Plus"
-,"unlimitedBtn":"Go Unlimited"
+,"unlimitedBtn":"Go Unlimited",
 
 
-
-  ,"name":"name",
+"let's":"Let's Talk",
+  "name":"name",
   "email":"email",
   "phone":"phone"
   ,"msg":"message"

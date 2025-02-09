@@ -1,7 +1,9 @@
 import React from "react";
-import styles from "./form.module.css";
+import styles from "./Form.module.css";
+import { useTranslation } from "react-i18next";
 
 const ContactForm = () => {
+  const {t} =useTranslation()
   return (
     <div className="relative lg:top-[-200px] w-full min-h-screen flex flex-col items-center justify-center pb-[100px] bg-white px-4 md:px-0 overflow-hidden">
 
