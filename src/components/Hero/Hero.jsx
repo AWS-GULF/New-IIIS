@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-import styles from "./hero.module.css";
+import styles from "../Hero/hero.module.css";
 import { useTranslation } from "react-i18next";
 import play from "../../assets/images/playYotube.jpg"
 import ScrollMouse from "../mouse/ScrollMouse";

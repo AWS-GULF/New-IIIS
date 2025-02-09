@@ -7,6 +7,7 @@ import ContentFilter from './components/contentFilter/ContentFilter'
 import Meet from './components/Meet Creators/Meet'
 import Plans from './components/Plans/Plans'
 import Form from './components/Form/Form'
+import Footer from './components/footer/Footer'
 
 function App() {
 const { t, i18n } = useTranslation();
@@ -22,6 +23,7 @@ const { t, i18n } = useTranslation();
     <Meet  isRTL={isRTL} i18n={i18n.language}/>
     <Plans  isRTL={isRTL} i18n={i18n.language}/>
     <Form/>
+    <Footer/>
    
    
 
