@@ -4,7 +4,7 @@
   "pricing": "pricing",
   "request": "Request A Demo",
   "lng": "AR",
-  "h1": "Sindion Support System",
+  "h1": "Smart Support System",
   "HeroCont": "The most modern and accurate ticket tracking system",
   "watch": "Watch A Demo",
 
@@ -95,7 +95,7 @@
   "email":"email",
   "phone":"phone"
   ,"msg":"message"
-
+,"send":"Send"
 
 
 }

@@ -21,15 +21,15 @@ export default function Navbar() {
   };
 
   return (
-    <div className="navbar sm:px-20  font-taj">
-      <div className="navbar-start">
-      <div className="drawer drawer-end lg:hidden">
+    <div className="navbar sm:px-20  font-taj lg:flex  lg:justify-between">
+      <div className=" lg:block flex flex-row-reverse justify-between  w-full lg:w-fit">
+      <div className="drawer drawer-end lg:hidden ">
   <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content">
    
-    <label htmlFor="my-drawer-4" className=" text-white ">
+    <label htmlFor="my-drawer-4" className=" text-white   ">
     <svg
-    className="swap-off fill-current"
+    className="swap-off fill-current  ms-auto w-1/4"
     xmlns="http://www.w3.org/2000/svg"
     width="32"
     height="32"
@@ -42,50 +42,63 @@ export default function Navbar() {
     <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay "></label>
     <ul className="menu bg- text-base-content min-h-full bg-menu w-80 p-4">
     <li className="px-4 py-4 me-2 hover:text-[#24346D] text-white cursor-pointer font-bold">
-            <a>{t("Features")}</a>
+            <a href="#features">{t("Features")}</a>
           </li>
           <li className="px-4 py-4 me-2 hover:text-[#24346D] text-white cursor-pointer font-bold">
-            <a>{t("creators")}</a>
+            <a href="#creators">{t("creators")}</a>
           </li>
           <li className="px-4 py-4 me-2 hover:text-[#24346D] text-white cursor-pointer font-bold">
-            <a>{t("pricing")}</a>
+            <a href="#plans">{t("pricing")}</a>
           </li>
           <li
             className="bg-white rounded me-2 transition-all duration-100 hover:bg-transparent
               hover:border-white hover:border-2 hover:text-white
-              text-[#3db1c1] font-semibold px-8 lg:w-46 flex-nowrap flex justify-center items-center"
+              text-[#3db1c1] font-semibold px-8  lg:w-46 flex-nowrap flex justify-center items-center "
           >
-            <a>{t("request")}</a>
+            <a href="#form">{t("request")}</a>
           </li>
     </ul>
   </div>
 </div>
+
+
+
+
+
+
         <a className="cursor-pointer text-xl">
-          <img src={isRTL ? logoRtl : logo} alt="Logo" />
+          <img src={isRTL ? logoRtl : logo} className="w-[110px] h-[70px] ms-3" alt="Logo" />
         </a>
       </div>
-      <div className="navbar-end hidden lg:flex">
+{/* ///////////////////////////////////////////////////////////////////////////////// */}
+
+      <div className="navbar-end hidden lg:flex justify-end items-center">
         <ul className="menu-horizontal">
           <li className="px-4 py-4 me-2 hover:text-[#24346D] text-white cursor-pointer font-bold">
-            <a>{t("Features")}</a>
+            <a href="#features">{t("Features")}</a>
           </li>
           <li className="px-4 py-4 me-2 hover:text-[#24346D] text-white cursor-pointer font-bold">
-            <a>{t("creators")}</a>
+            <a href="#creators">{t("creators")}</a>
           </li>
           <li className="px-4 py-4 me-2 hover:text-[#24346D] text-white cursor-pointer font-bold">
-            <a>{t("pricing")}</a>
+            <a href="#plans">{t("pricing")}</a>
           </li>
           <li
-            className="bg-white rounded me-2 transition-all duration-100 hover:bg-transparent
+            className="bg-white  me-4 transition-all duration-100 hover:bg-transparent
               hover:border-white hover:border-2 hover:text-white
-              text-[#3db1c1] font-semibold px-8 lg:w-46 flex-nowrap flex justify-center items-center"
+              text-[#3db1c1] font-semibold px-8 h-[40px] lg:w-46 flex-nowrap flex justify-center items-center m-auto"
           >
-            <a>{t("request")}</a>
+            <a  href="#form">{t("request")}</a>
           </li>
         </ul>
+        <div className=" lg:w-fit mt-3 lg:mt-0 text-center  lg:flex top-[30%] left-0 absolute lg:relative    ">
+        <button onClick={toggleLanguage} className=" text-[16px] h-[40px] px-3  bg-[#24346D] text-white font-bold">
+          {t("lng")}
+        </button>
       </div>
-      <div className="navbar-end lg:w-fit mt-3 lg:mt-0">
-        <button onClick={toggleLanguage} className="btn btn-ghost text-[16px] bg-[#24346D]">
+      </div>
+      <div className={` lg:w-fit mt-3 lg:mt-0 text-center   top-[20%]  absolute lg:relative lg:hidden  ${ isRTL? "right-[10px]" :"left-[10px]"}   `}>
+        <button onClick={toggleLanguage} className=" text-[16px] h-[40px] px-3  bg-[#24346D] text-white font-bold fixed">
           {t("lng")}
         </button>
       </div>

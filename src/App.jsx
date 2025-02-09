@@ -8,6 +8,10 @@ import Meet from './components/Meet Creators/Meet'
 import Plans from './components/Plans/Plans'
 import Form from './components/Form/Form'
 import Footer from './components/footer/Footer'
+import './index.css'
+import "./App.css"
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import Whatsapp from './components/whatsapp/Whatsapp'
 
 function App() {
 const { t, i18n } = useTranslation();
@@ -17,13 +21,15 @@ const { t, i18n } = useTranslation();
   return (
     <>
  
-    <Hero/>
-    <About isRTL={isRTL} t={t}/>
-    <ContentFilter isRTL={isRTL}/>
+    <Hero i18n={i18n} />
+    <About isRTL={isRTL} t={t} i18n={i18n}/>
+    <ContentFilter isRTL={isRTL} i18n={i18n}/>
     <Meet  isRTL={isRTL} i18n={i18n.language}/>
     <Plans  isRTL={isRTL} i18n={i18n.language}/>
     <Form/>
+    <Whatsapp/>
     <Footer/>
+  
    
    
 

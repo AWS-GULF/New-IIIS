@@ -2,29 +2,28 @@ import React from "react";
 import Navbar from "../navbar/Navbar";
 import styles from "./Hero.module.css";
 import { useTranslation } from "react-i18next";
-import play from "../../assets/images/playYotube.jpg"
 import ScrollMouse from "../mouse/ScrollMouse";
 
-export default function Hero() {
+export default function Hero({i18n}) {
     const {t}=useTranslation()
   return (
-    <div className={`w-full h-svh   ${styles.hero}`}>
-      <Navbar />
+    <div className={`w-full lg:h-svh   ${styles.hero}`}>
+      <Navbar i18n={i18n}/>
 
       <div className="flex-col text-center items-center justify-center font-taj mt-10 lg:mt-0 ">
-        <p className="font-taj text-5xl lg:text-[52px] leading-[72px]  font-bold mb-10 lg:mb-8 text-[#F4F9FA]">IIIS</p>
-        <h1 className=" text-2xl lg:text-3xl text-[#F4F9FA] font-bold mb-4">{t("h1")}</h1>
-        <p className="text-2xl lg:text-2xl text-[#F4F9FA] leading-[40px]  ">{t("HeroCont")}</p>
+        <p className="font-taj text-5xl lg:text-[52px] leading-[72px]  font-bold mb-10 lg:mb-7 mt-11 text-[#F4F9FA]">IIIS</p>
+        <h1 className=" text-2xl lg:text-[26px] text-[#F4F9FA] font-bold mb-3">{t("h1")}</h1>
+        <p className="text-2xl lg:text-[20px] text-[#F4F9FA] leading-[40px] mb-[55px] ">{t("HeroCont")}</p>
         <button
-            className="bg-[#203E73] rounded bg-gradient-to-r transition-all duration-100
+            className="bg-[#203E73]  bg-gradient-to-r transition-all duration-100
                hover:text-white bg-linear-to-r from-[#0395A5] to-[#213B71] hover:bg-gradient-to-l hover:from-[#213B71]to-[#0395A5]
-              text-white font-semibold px-10 py-4 lg:w-46 flex-nowrap mt-10 "
+              text-white font-semibold px-[30px] py-3 lg:w-46 flex-nowrap "
           >
-            <a>{t("request")}</a>
+            <a  href="#form">{t("request")}</a>
           </button>
          
-          <a href="https://www.youtube.com/@sindiontechnologyltd3700" target="_blank" className="flex items-center justify-center mt-8 font-bold text-white">
-           <span className="me-2"><img className="w-[20px] h-[20px] rounded" src={play} alt="" /></span>
+          <a href="https://www.youtube.com/@sindiontechnologyltd3700" target="_blank" className="flex items-center justify-center mt-[20px] font-bold text-white">
+           <span className="me-2 border-[1.5px] w-5 h-5 p-3 rounded-full flex justify-center items-center"><i class="fa-solid fa-play"></i></span>
           {t("watch")}</a>
 <div className="mb-4"> <ScrollMouse/></div>
           
