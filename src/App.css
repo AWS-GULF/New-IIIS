@@ -1,0 +1,23 @@
+/* تخصيص الـ scrollbar لكل المتصفحات */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* تغيير لون المسار الخلفي للـ scrollbar */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  /* تغيير لون الـ scrollbar نفسه */
+  ::-webkit-scrollbar-thumb {
+    background: #4a90e2;
+    border-radius: 10px;
+  }
+  
+  /* عند تمرير الماوس فوق الـ scrollbar */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #357ac9;
+  }
+  

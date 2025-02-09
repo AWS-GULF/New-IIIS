@@ -1,0 +1,99 @@
+{
+  "Features": "Features",
+  "creators": "creators",
+  "pricing": "pricing",
+  "request": "Request A Demo",
+  "lng": "AR",
+  "h1": "Sindion Support System",
+  "HeroCont": "The most modern and accurate ticket tracking system",
+  "watch": "Watch A Demo",
+
+
+
+
+
+  "aboutCont": "An online ticket management system works by creating a unique ticket that records interactions pertaining to a customer issue. This ticket is shared among your agents as well as the customer and acts as an important point of reference for both parties. A competitive ticket management system brings order to customer support and makes it methodical in managing customer requests. No more emails, Email makes tracking issues a cumbersome process. Now Your customers can help themselves. Monitoring the performance of your team is a big challenge now it's easy. A Shared Inbox for All Your Email Communications.",
+  "aboutTitle":"Track, prioritize, and solve customer tickets."
+
+
+
+
+
+
+
+  ,"INcateg":"INCIDENT MANAGEMENT"
+  ,"ITcateg":"IT ASSET MANAGEMENT "
+  ,"EMcateg":"EMPLOYEE SERVICE"
+  ,"KNcateg":"KNOWLEDGE BASE"
+  ,"PRcateg":"PROBLEM MANAGEMENT"
+  ,"CHcateg":"CHANGE MANAGEMENT"
+
+
+
+
+
+
+  ,"IMfeature1":"feature 1 List1"
+  ,"IMfeature2":"feature 1 List1"
+  ,"IMfeature3":"feature 1 List1"
+  ,"IMfeature4":"feature 1 List1"
+  ,"IMfeature5":"feature 1 List1"
+
+
+
+
+  ,"ITfeature1":"Asset 1 List1"
+  ,"ITfeature2":"Asset 1 List1"
+
+
+
+  ,"Emfeature1":"employee 1 List1"
+  ,"Emfeature2":"employee 1 List1"
+
+
+
+  ,"Knfeature1":"knowledge 1 List1"
+  ,"Knfeature2":"knowledge 1 List1"
+
+  ,"profeature1":"problem knowledge 1 List1"
+  ,"profeature2":"problem knowledge 1 List1"
+
+
+ ,"changefeature1":"problem knowledge 1 List1"
+  ,"changefeature2":"problem knowledge 1 List1"
+
+
+
+
+
+  ,"meetTitle": "Meet The Creators",
+  "meetDesc": "Sindion is a 100% self-bootstrapped company, has been founded by young engineers who decided not to follow the same manner of increasing the number of gears in huge machines already been established under certain conditions."
+
+
+,"plansTitle":"CHOOSE THE PLAN THAT WORKS FOR YOU"
+,"plansDesc":"The following plans are valid for the first 50 companies only, hurry up!"
+  
+
+
+,"basic":"Basic"
+,"plus":"Plus"
+,"unlimited":"Unlimited"
+
+
+,
+"basicupto":"Up to 500 user",
+"plusupto":"Up to 500 user",
+"unlimitedupto":"Up to 500 user"
+
+,"basicBtn":"Go Basic"
+,"plusBtn":"Go Plus"
+,"unlimitedBtn":"Go Unlimited"
+
+
+
+
+
+
+
+
+}
