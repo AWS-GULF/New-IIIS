@@ -38,7 +38,7 @@ const Plans = ({ isRTL, i18n }) => {
           </h2>
           <p className="text-5xl font-bold text-gray-800 mb-4">$20</p>
           <p className="text-[14px] text-gray-400 mb-6 font-normal">
-            per month
+         {t("permonth")}
           </p>
           <p className="text-[20px] text-black mb-6">{t("basicupto")}</p>
           <button className="bg-[#009DAA] text-white px-16 py-4 text-lg">
@@ -58,7 +58,7 @@ const Plans = ({ isRTL, i18n }) => {
           </h2>
           <p className="text-5xl font-bold text-gray-800 mb-4">$30</p>
           <p className="text-[14px] text-gray-400 mb-6 font-normal">
-            per month
+          {t("permonth")}
           </p>
           <p className="text-[20px] text-black mb-6">{t("plusupto")}</p>
           <button className="bg-[#FF4500] text-white px-16 py-4 text-lg">
@@ -82,7 +82,7 @@ const Plans = ({ isRTL, i18n }) => {
           </h2>
           <p className="text-5xl font-bold text-gray-800 mb-4">$50</p>
           <p className="text-[14px] text-gray-400 mb-6 font-normal">
-            per month
+          {t("permonth")}
           </p>
           <p className="text-[20px] text-black mb-6">{t("unlimitedupto")}</p>
           <button className="bg-[#24346D] text-white px-12 py-4 text-lg">
