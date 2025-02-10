@@ -15,6 +15,9 @@ export default {
         taj: 'Tajawal',         
        
       },
+        screens: {
+        'md-xl': { min: '1025px', max: '1280px' }, // نطاق الشاشات المطلوب
+      },
     },
   },
   plugins: [
@@ -26,3 +29,18 @@ export default {
     darkTheme: "light", 
   },
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

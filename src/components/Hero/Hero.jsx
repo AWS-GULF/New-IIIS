@@ -3,6 +3,7 @@ import Navbar from "../navbar/Navbar";
 import styles from "./Hero.module.css";
 import { useTranslation } from "react-i18next";
 import ScrollMouse from "../mouse/ScrollMouse";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Hero({i18n}) {
     const {t}=useTranslation()
@@ -23,7 +24,7 @@ export default function Hero({i18n}) {
           </button>
          
           <a href="https://www.youtube.com/@sindiontechnologyltd3700" target="_blank" className="flex items-center justify-center mt-[20px] font-bold text-white">
-           <span className="me-2 border-[1.5px] w-5 h-5 p-3 rounded-full flex justify-center items-center"><i class="fa-solid fa-play"></i></span>
+           <span className="me-2 w-3 h-3 p-[10px]  flex justify-center items-center"><i class="fa-regular fa-circle-play"></i></span>
           {t("watch")}</a>
 <div className="mb-4"> <ScrollMouse/></div>
           

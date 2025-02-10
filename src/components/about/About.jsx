@@ -14,30 +14,30 @@ export default function About({ isRTL ,i18n}) {
     <>
       <div
         id="about"
-        className={`lg:flex ${isRTL ? "lg:flex-row-reverse" : ""}  px-4 lg:px-0 lg:flex-row justify-center items-center gap-8 mt-32 overflow-hidden lg:pt-36 pb-20 lg:relative  flex-col `}
+        className={`lg:flex ${isRTL ? "lg:flex-row-reverse" : ""}  px-4 lg:px-0 lg:flex-row justify-center items-center gap-8 mt-28 overflow-hidden lg:pt-2 pb-20 lg:relative  flex-col `}
       >
         
         <img
-          src={isRTL ? logortl : logo}
-          className={` hidden lg:block lg:absolute h-[450px]  z-[-9] ${
-            isRTL ? "right-[90%]" : "left-[0]"
+          src={i18n.language==='en' ? logortl : logo}
+          className={` hidden lg:block lg:absolute h-[450px] scale-140  z-[-9] ${
+            i18n.language==='en' ? "left-[0%]" : "left-[80%]"
           }`}
           alt=""
         />
 
     
-        <div className={`w-full lg:w-[45%]  ${about.bg} text-${isRTL ? "right" : "left"} mb-36 lg:mb-0 lg:ps-8`}>
+        <div className={`w-full lg:w-[45%]  ${about.bg} text-${isRTL ? "right" : "left"}   mb-36 lg:mb-0 lg:ps-8`}>
           <h2 className="text-4xl mb-10 font-taj font-bold text-[#24346D] lg:text-[42px]">
             {t("aboutTitle")} 
           </h2>
-          <p className="text-[#2e438f] font-taj front-[300] lg:text-[20px] leading-10">{t("aboutCont")}</p>
+          <p className="text-[#2e438f] font-taj front-[300] lg:text-[20px] text-[18px] lg:leading-10 text-justify-pretty lg:text-justify p-2">{t("aboutCont")} </p>
         </div>
 
     
-        <div className="w-[40%] flex justify-start items-end m-auto lg:ms-16">
+        <div className="w-[40%] flex justify-start items-end mt-[-30px] m-auto lg:ms-16 ">
           <img
             src={tm}
-            className={`lg:scale-[130%] scale-[210%]  mb-10 lg:relative ${i18n.language==='en' && "lg:left-[120px]" } ${i18n.language==='ar' && "lg:left-[-50px]" }`}
+            className={`lg:scale-[150%] scale-[210%]  lg:mb-10 pb-8 md:pb-20 lg:relative ${i18n.language==='en' && "lg:left-[100px] top-10" } ${i18n.language==='ar' && "lg:left-[-20px] top-10" }`}
             alt=""
           />
         </div>

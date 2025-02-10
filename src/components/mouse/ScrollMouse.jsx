@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const ScrollMouse = () => {
   return (
-    <div className="flex justify-center items-center h-32">
+    <div className="flex justify-center items-center h-32 pb-12 pt-1">
     
       <div className="w-6 h-[40px] border-2 border-white rounded-full flex justify-center items-center relative mt-[-10px]">
       

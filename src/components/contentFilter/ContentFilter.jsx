@@ -7,6 +7,8 @@ import img5 from "../../assets/images/5.svg";
 import img6 from "../../assets/images/6.svg";
 import laptop from "../../assets/images/laptop.png";
 import { useTranslation } from "react-i18next";
+import logo from "../../assets/images/transparent-logo.png";
+import logortl from "../../assets/images/transparent-logo.png";
 
 export default function ContentFilter({ isRTL}) {
   const { t, i18n } = useTranslation();
@@ -83,15 +85,31 @@ export default function ContentFilter({ isRTL}) {
         ))}
       </div>
 
-      {/* Features List */}
-      <div className="lg:flex lg:flex-row flex-col lg:justify-between overflow-hidden mt-20 ">
+      {/* features */}
+      <div className="lg:flex lg:flex-row flex-col lg:justify-between overflow-hidden mt-20 lg:ps-16 ">
+        
+
+
+ <img
+          src={i18n.language==='en' ? logortl : logo}
+          className={` hidden lg:block lg:absolute h-[450px] scale-140  z-[-9] ${
+            i18n.language==='en' ? "left-[0%]" : "left-[80%]"
+          }`}
+          alt=""
+        />
+
+
+
+
+
+
         <div className="mb-10 flex-col w-full lg:w-[45%]">
           <h2 className="text-2xl font-bold lg:text-start text-center lg:mt-10 lg:mb-10 text-[#24346d] lg:text-[42px]">
             {selectedCard?.category}
           </h2>
-          <ul className="mt-4 text-lg lg:text-start font-normal space-y-2 lg:space-y-4 flex-col text-center">
+          <ul className="mt-4 text-lg  font-normal  lg:space-y-4 flex-col ps-4  lg:ps-0 space-y-6 text-start">
             {selectedCard?.features.map((feature, index) => (
-              <li key={index} className="cursor-pointer lg:ms-6">
+              <li key={index} className="cursor-pointer md:ms-16   lg:ms-6">
                 <span>▶ </span>
                 {feature}
               </li>
