@@ -38,7 +38,7 @@ export default function Navbar() {
   </svg>
     </label>
   </div>
-  <div className="drawer-side">
+  <div className="drawer-side z-50">
     <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay "></label>
     <ul className="menu bg- text-base-content min-h-full bg-menu w-80 p-4">
     <li className="px-4 py-4 me-2 hover:text-[#24346D] text-white cursor-pointer font-bold">
