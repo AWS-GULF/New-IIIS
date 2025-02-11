@@ -43,8 +43,55 @@ html, body {
 
 
 
-/* 
+
 
 @media (min-width: 1025px) and (max-width: 1279px) {
+  #RequestCont{
+    width: 100%;
+    /* background: #000; */
+ display: flex;
+ width: 200px;
+text-align: center;
+  }
+  #Request{
+    flex-wrap: nowrap;
+    width: 100%;
+    
+  }
 
-} */
+
+  .boxes{
+
+    overflow: hidden;
+
+  }
+  .box{
+
+  width: 150px;
+ text-align: center;
+ justify-content: center;
+ display: flex;
+justify-items: center;
+align-items: center;
+ flex-direction: column;
+  
+  }
+
+  #FORM{
+   position: absolute;
+   /* top: 20px; */
+   padding: 100px;
+   background-color: transparent;
+  
+  }
+#PLANS{
+/* background-color: black; */
+
+display: flex ;
+gap: 10px;
+
+
+
+
+}
+}

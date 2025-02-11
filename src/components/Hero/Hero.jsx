@@ -14,7 +14,7 @@ export default function Hero({i18n}) {
       <div className="flex-col text-center items-center justify-center font-taj  lg:mt-0  ">
         <p className="font-taj text-5xl lg:text-[52px] leading-[72px]  font-bold mb-8 lg:mb-5 md:mt-8 lg:mt-6 text-[#F4F9FA]">IIIS</p>
         <h1 className=" text-2xl lg:text-[26px] text-[#F4F9FA] font-bold mb-3  ">{t("h1")}</h1>
-        <p className="text-2xl lg:text-[20px] text-[#F4F9FA] leading-[40px]  mb-10 lg:mb-[30px] md:mt-8 lg:mt-6 pe-3 ">{t("HeroCont")}</p>
+        <p className="text-2xl lg:text-[20px] text-[#F4F9FA] leading-[40px]  mb-10 lg:mb-[30px] md:mt-5 lg:mt-3 pe-3 ">{t("HeroCont")}</p>
         <button
             className="bg-[#203E73]  bg-gradient-to-r transition-all duration-100
                hover:text-white bg-linear-to-r from-[#0395A5] to-[#213B71] hover:bg-gradient-to-l hover:from-[#213B71]to-[#0395A5]

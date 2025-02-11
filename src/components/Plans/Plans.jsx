@@ -40,7 +40,7 @@ const Plans = ({ isRTL, i18n }) => {
         {t("plansDesc")}
       </p>
 
-      <div className={`relative w-full max-w-6xl font-taj ${isMobileOrTablet ? "flex flex-col space-y-[25px]" : "md:flex md:items-center md:justify-center md:space-x-4 md:mb-36"} font-bold`}>
+      <div id="PLANS" className={`relative w-full max-w-6xl font-taj ${isMobileOrTablet ? "flex flex-col space-y-[25px]" : "md:flex md:items-center md:justify-center md:space-x-4 md:mb-36"} font-bold`}>
         
       
         <div
@@ -57,7 +57,7 @@ const Plans = ({ isRTL, i18n }) => {
           <p className="text-5xl font-bold text-gray-800 mb-4 text-center" >$20</p>
           <p className="text-[14px] text-gray-400 mb-6 font-normal text-center">{t("permonth")}</p>
           <p className="text-[20px] text-black mb-6 text-center" >{t("basicupto")}</p>
-          <button className={`bg-[#009DAA] text-white px-16 py-4 text-lg w-full ${isTablet ? "md:w-fit md:py-2 text-sm" : ""}`}>
+          <button className={`bg-[#009DAA] text-white px-16 py-4 text-lg w-full rounded ${isTablet ? "md:w-fit md:py-2 text-sm" : ""}`}>
             {t("basicBtn")}
           </button>
         </div>
@@ -77,7 +77,7 @@ const Plans = ({ isRTL, i18n }) => {
           <p className="text-5xl font-bold text-gray-800 mb-4 text-center">$30</p>
           <p className="text-[14px] text-gray-400 mb-6 font-normal text-center">{t("permonth")}</p>
           <p className="text-[20px] text-black mb-6 text-center">{t("plusupto")}</p>
-          <button className={`bg-[#FF4500] text-white px-16 py-4 text-lg w-full ${isTablet ? "md:w-fit md:py-2 text-sm" : ""}`}>
+          <button className={`bg-[#FF4500] text-white px-16  rounded py-4 text-lg w-full ${isTablet ? "md:w-fit md:py-2 text-sm" : ""}`}>
             {t("plusBtn")}
           </button>
         </div>
@@ -97,7 +97,7 @@ const Plans = ({ isRTL, i18n }) => {
           <p className="text-5xl font-bold text-gray-800 mb-4 text-center">$50</p>
           <p className="text-[14px] text-gray-400 mb-6 font-normal text-center">{t("permonth")}</p>
           <p className="text-[20px] text-black mb-6 text-center">{t("unlimitedupto")}</p>
-          <button className={`bg-[#24346D] text-white px-12 py-4 text-lg w-full ${isTablet ? "md:w-fit md:py-2 text-sm" : ""}`}>
+          <button className={`bg-[#24346D] text-white px-12 rounded py-4 text-lg w-full ${isTablet ? "md:w-fit md:py-2 text-sm" : ""}`}>
             {t("unlimitedBtn")}
           </button>
         </div>

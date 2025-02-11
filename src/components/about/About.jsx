@@ -14,7 +14,7 @@ export default function About({ isRTL ,i18n}) {
     <>
       <div
         id="about"
-        className={`lg:flex ${isRTL ? "lg:flex-row-reverse" : ""}  px-4 lg:px-0 lg:flex-row justify-center items-center gap-8 mt-28 overflow-hidden lg:pt-2 pb-20 lg:relative  flex-col `}
+        className={`lg:flex ${isRTL ? "lg:flex-row-reverse" : ""}  px-4 lg:px-0 lg:flex-row justify-center items-center gap-8 mt-20 overflow-hidden lg:pt-2 pb-20 lg:relative  flex-col `}
       >
         
         <img
@@ -26,18 +26,18 @@ export default function About({ isRTL ,i18n}) {
         />
 
     
-        <div className={`w-full lg:w-[45%]  ${about.bg} text-${isRTL ? "right" : "left"}   mb-36 lg:mb-0 lg:ps-8 ${i18n.language==='ar' && "text-start"}`}>
+        <div className={`w-full lg:w-[45%]  ${about.bg} text-${isRTL ? "right" : "left"} lg:mt-[-20px]  mb-36 lg:mb-0 ps-4 lg:ps-8 ${i18n.language==='ar' && "text-start"}`}>
           <h2 className="text-4xl mb-10 font-taj font-bold text-[#24346D] lg:text-[42px]">
             {t("aboutTitle")} 
           </h2>
-          <p className="text-[#2e438f] font-taj front-[300] lg:text-[20px] text-[18px] lg:leading-10 text-justify-pretty lg:text-justify p-2">{t("aboutCont")} </p>
+          <p className="text-[#2e438f] font-taj front-[300] lg:text-[20px] text-[18px] lg:leading-10 text-justify-pretty lg:text-justify p-2  md:pb-20 lg:pb-0 md:text-[20px]">{t("aboutCont")} </p>
         </div>
 
     
         <div className="w-[40%] flex justify-start items-end mt-[-30px] m-auto lg:ms-16 ">
           <img
             src={tm}
-            className={`lg:scale-[150%] scale-[210%]  lg:mb-10 pb-8 md:pb-20 lg:relative ${i18n.language==='en' && "lg:left-[100px] top-10" } ${i18n.language==='ar' && "lg:left-[-20px] top-10" }`}
+            className={`lg:scale-[150%] scale-[260%]  lg:mb-10 pb-8 md:pb-20 lg:relative ${i18n.language==='en' && "lg:left-[100px] top-10" } ${i18n.language==='ar' && "lg:left-[-20px] top-10" }`}
             alt=""
           />
         </div>

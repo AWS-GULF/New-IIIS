@@ -66,14 +66,14 @@ export default function ContentFilter({ isRTL}) {
   const selectedCard = cardsData[selectedCategoryIndex];
 
   return (
-    <div className=" font-taj flex-col " id="features">
+    <div className=" font-taj flex-col  " id="features">
     
-      <div className="lg:flex lg:justify-center lg:flex-row lg:gap-2 flex-col mx-16">
+      <div className="lg:flex lg:justify-center lg:flex-row lg:gap-2 flex-col mx-16  boxes">
         {categories.map((category, index) => (
           <button
             key={index}
             onClick={() => setSelectedCategoryIndex(index)}
-            className={`lg:px-10 lg:py-8 py-4 my-4 lg:mb-4 rounded-lg w-full font-bold transition-all shadow-xl ${
+            className={`lg:px-10 lg:py-8 py-4 my-4 lg:mb-4 rounded-lg w-full font-bold transition-all shadow-xl box ${
               selectedCategoryIndex === index
                 ? "bg-gradient-to-b from-[#0395A5] to-[#213D72] text-white"
                 : "bg-white text-black border"

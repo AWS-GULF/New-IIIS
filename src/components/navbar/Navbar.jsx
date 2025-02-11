@@ -66,7 +66,7 @@ export default function Navbar() {
 
 
 
-        <a className="cursor-pointer text-xl md:ms-[-50px]">
+        <a className="cursor-pointer text-xl md:ms-[-50px] lg:ms-0">
           <img src={isRTL ? logoRtl : logo} className="w-[110px] h-[70px] ms-3 lg:ms-0" alt="Logo" />
         </a>
       </div>
@@ -86,9 +86,9 @@ export default function Navbar() {
           <li
             className="bg-white  me-4 transition-all duration-100 hover:bg-transparent
               hover:border-white hover:border-2 hover:text-white
-              text-[#3db1c1] font-semibold px-8 h-[40px] lg:w-46 flex-nowrap flex justify-center items-center m-auto rounded"
+              text-[#3db1c1] font-semibold px-8 h-[40px] lg:w-46 flex-nowrap flex justify-center items-center m-auto rounded" id="RequestCont"
           >
-            <a  href="#form">{t("request")}</a>
+            <a id="Request"  href="#form">{t("request")}</a>
           </li>
         </ul>
         <div className=" lg:w-fit mt-3 lg:mt-0 text-center   lg:flex top-[30%] left-0 absolute lg:relative     " id="nav-btn">
@@ -98,7 +98,7 @@ export default function Navbar() {
       </div>
       </div>
       <div className={` lg:w-fit mt-3 lg:mt-0 text-center z-50   top-[20%]  absolute lg:relative lg:hidden  ${ isRTL? "right-[0px]" :"left-[0px]"}   `}>
-        <button onClick={toggleLanguage} className=" rounded text-[16px] h-[40px] px-3  bg-[#24346D] text-white font-bold fixed">
+        <button onClick={toggleLanguage} className=" rounded text-[16px] h-[45px] w-[40px] px-3  bg-[#24346D] text-white font-bold fixed">
           {t("lng")}
         </button>
       </div>
