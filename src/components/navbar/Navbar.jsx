@@ -67,7 +67,7 @@ export default function Navbar() {
 
 
         <a className="cursor-pointer text-xl md:ms-[-50px]">
-          <img src={isRTL ? logoRtl : logo} className="w-[110px] h-[70px] ms-3" alt="Logo" />
+          <img src={isRTL ? logoRtl : logo} className="w-[110px] h-[70px] ms-3 lg:ms-0" alt="Logo" />
         </a>
       </div>
 {/* ///////////////////////////////////////////////////////////////////////////////// */}
