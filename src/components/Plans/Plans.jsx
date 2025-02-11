@@ -36,13 +36,13 @@ const Plans = ({ isRTL, i18n }) => {
         {t("plansTitle")}
       </h1>
 
-      <p className="text-[20px] text-center text-[#24346D] mb-12 font-taj leading-10">
+      <p className="text-[20px] text-center text-[#24346D] mb-12 font-taj leading-10 p-4 lg:p-0">
         {t("plansDesc")}
       </p>
 
       <div className={`relative w-full max-w-6xl font-taj ${isMobileOrTablet ? "flex flex-col space-y-[25px]" : "md:flex md:items-center md:justify-center md:space-x-4 md:mb-36"} font-bold`}>
         
-        {/* Basic Plan */}
+      
         <div
           className={`bg-white p-6 md:p-8 lg:p-10 lg:pb-48 md:pb-20 md:w-[50%] border-2 ${
             isMobileOrTablet ? "border-[#009DAA] w-[80%] m-auto flex flex-col text-center items-center justify-center scale-100 mb-[25px]" 
@@ -62,7 +62,7 @@ const Plans = ({ isRTL, i18n }) => {
           </button>
         </div>
 
-        {/* Plus Plan (الافتراضي) */}
+      
         <div
           className={`bg-white p-6 md:p-8 lg:p-10 lg:pb-48 md:pb-20 md:w-[50%] border-2  ${
             isMobileOrTablet ? "border-[#FF4500] w-[80%] m-auto flex flex-col text-center items-center justify-center scale-100 mb-[25px]" 
@@ -82,7 +82,7 @@ const Plans = ({ isRTL, i18n }) => {
           </button>
         </div>
 
-        {/* Unlimited Plan */}
+    
         <div
           className={`bg-white p-6 md:p-8 lg:p-10 lg:pb-48 md:pb-20 md:w-[50%] border-2 ${
             isMobileOrTablet ? "border-[#24346D] w-[80%]  m-auto flex flex-col text-center items-center justify-center scale-100 mb-[25px]" 

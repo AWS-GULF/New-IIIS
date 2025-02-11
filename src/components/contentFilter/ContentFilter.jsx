@@ -107,7 +107,7 @@ export default function ContentFilter({ isRTL}) {
           <h2 className="text-2xl font-bold lg:text-start text-center lg:mt-10 lg:mb-10 text-[#24346d] lg:text-[42px]">
             {selectedCard?.category}
           </h2>
-          <ul className="mt-4 text-lg  font-normal  lg:space-y-4 flex-col ps-4  lg:ps-0 space-y-6 text-start">
+          <ul className="mt-4 text-lg  font-normal  lg:space-y-4 flex-col ps-7  lg:ps-0 space-y-6 text-start ">
             {selectedCard?.features.map((feature, index) => (
               <li key={index} className="cursor-pointer md:ms-16   lg:ms-6">
                 <span>▶ </span>

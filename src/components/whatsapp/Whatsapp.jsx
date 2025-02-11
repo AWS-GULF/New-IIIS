@@ -6,10 +6,10 @@ const Whatsapp = () => {
   };
 
   return (
-    <div className="fixed bottom-6 right-6">
+    <div className="fixed bottom-6 right-6 z-50">
       <button
         onClick={handleClick}
-        className="bg-green-500 text-white p-4 rounded-full transition-all hover:bg-green-600 
+        className="bg-green-500 text-white lg:p-3 p-2 rounded-full transition-all hover:bg-green-600 
                    shadow-[0_0_40px_10px_rgba(34,197,94,1)] animate-glow-custom animate-bounce-custom"
       >
         <img

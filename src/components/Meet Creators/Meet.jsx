@@ -15,7 +15,7 @@ export default function Meet({ isRTL, i18n }) {
     >
       <div className="lg:w-[45%] lg:ms-12 text-[42px] font-bold leading-10 text-white">
         <h2 className="mb-10 pt-4">{t("meetTitle")}</h2>
-        <p className="text-[20px] font-normal leading-10 text-white text-justify p-2">
+        <p className="text-[20px] font-normal leading-10 text-white text-justify lg:p-2 p-4">
           {t("meetDesc")}
         </p>
       </div>

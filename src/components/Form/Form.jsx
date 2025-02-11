@@ -7,8 +7,8 @@ const ContactForm = () => {
   
   return (
     <div className="relative capitalize lg:top-[-200px] w-full lg:min-h-screen flex flex-col items-center justify-center mb-5 lg:mb-0 bg-white px-4 md:px-0 overflow-hidden" id="form">
-      <div className={`${styles.bg} hidden lg:block absolute top-28 left-[-50px] w-1/3 h-[70%] bg-cover bg-no-repeat`}></div>
-      <div className={`${styles.secbg} hidden lg:block absolute top-28 right-[-220px] w-1/3 h-[70%] bg-cover bg-no-repeat`}></div>
+      <div className={`${styles.bg} hidden lg:block absolute top-28 left-[-65px] w-1/3 h-[70%] bg-cover bg-no-repeat`}></div>
+      <div className={`${styles.secbg} hidden lg:block absolute top-28 right-[-260px] w-1/3 h-[70%] bg-cover bg-no-repeat`}></div>
       <div className={`${styles.MBG} left-[-11%] opacity-80 md:block lg:hidden hidden z-[11] absolute w-full h-[70%] bg-cover bg-no-repeat`}></div>
 
       <div className="relative z-10 w-full max-w-3xl bg-white p-3 rounded-lg text-center lg:mt-36 mt-20">
