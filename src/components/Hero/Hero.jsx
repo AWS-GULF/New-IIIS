@@ -24,7 +24,7 @@ export default function Hero({i18n}) {
           </button>
          
           <a href="https://www.youtube.com/@sindiontechnologyltd3700" target="_blank" className="flex mb-2 items-center justify-center mt-[20px] font-bold text-white">
-           <span className="me-2 w-3 h-3 p-[10px]  flex justify-center items-center"><i class="fa-regular fa-circle-play"></i></span>
+           <span className="me-2 w-3 h-3 p-[10px]  flex justify-center items-center"><i className="fa-regular fa-circle-play"></i></span>
           {t("watch")}</a>
 <div className="mb-4"> <ScrollMouse/></div>
           

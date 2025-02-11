@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <div className="navbar sm:px-20  font-taj lg:flex  lg:justify-between capitalize overflow-hidden">
       <div className=" lg:block flex flex-row-reverse justify-between  w-full lg:w-fit  ">
-      <div className="drawer drawer-end lg:hidden me-[-10px] md:me-[-80px]">
+      <div className="drawer drawer-end lg:hidden me-[-10px] md:me-[-90px]">
   <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content">
    

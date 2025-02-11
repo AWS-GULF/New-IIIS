@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Trans, useTranslation } from 'react-i18next'
+import { getI18n, Trans, useTranslation } from 'react-i18next'
 import Navbar from './components/navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import About from './components/about/About'
@@ -16,6 +16,9 @@ import Whatsapp from './components/whatsapp/Whatsapp'
 function App() {
 const { t, i18n } = useTranslation();
   const [isRTL, setIsRTL] = useState(i18n.language === "ar");
+  const lang = i18n.language
+  // console.log(lang);
+  
 
 
   return (
@@ -26,7 +29,7 @@ const { t, i18n } = useTranslation();
     <ContentFilter isRTL={isRTL} i18n={i18n}/>
     <Meet  isRTL={isRTL} i18n={i18n.language}/>
     <Plans  isRTL={isRTL} i18n={i18n.language}/>
-    <Form/>
+    <Form lang={lang} />
     <Whatsapp/>
     <Footer/>
   

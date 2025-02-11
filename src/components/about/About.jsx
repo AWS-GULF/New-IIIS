@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 export default function About({ isRTL ,i18n}) {
   const { t } = useTranslation();
-  console.log(i18n.language);
+  // console.log(i18n.language);
   
 
   return (
@@ -26,7 +26,7 @@ export default function About({ isRTL ,i18n}) {
         />
 
     
-        <div className={`w-full lg:w-[45%]  ${about.bg} text-${isRTL ? "right" : "left"}   mb-36 lg:mb-0 lg:ps-8`}>
+        <div className={`w-full lg:w-[45%]  ${about.bg} text-${isRTL ? "right" : "left"}   mb-36 lg:mb-0 lg:ps-8 ${i18n.language==='ar' && "text-start"}`}>
           <h2 className="text-4xl mb-10 font-taj font-bold text-[#24346D] lg:text-[42px]">
             {t("aboutTitle")} 
           </h2>

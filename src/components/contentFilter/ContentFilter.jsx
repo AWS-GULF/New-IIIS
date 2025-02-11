@@ -13,7 +13,7 @@ import logortl from "../../assets/images/transparent-logo.png";
 export default function ContentFilter({ isRTL}) {
   const { t, i18n } = useTranslation();
   const [selectedCategoryIndex, setSelectedCategoryIndex] = useState(0); 
-  console.log(i18n.language );
+  // console.log(i18n.language );
   
 
   const categories = [
