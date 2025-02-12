@@ -11,7 +11,7 @@ export default function Hero({ i18n }) {
     <div className={`w-full lg:h-dvh   ${styles.hero}`}>
       <Navbar i18n={i18n} />
 
-      <div className="flex-col text-center items-center justify-center font-taj  lg:mt-0 space-y-16  ">
+      <div className="flex-col text-center items-center justify-center font-taj  lg:mt-0 space-y-24  ">
         <p className="font-taj text-5xl lg:text-[52px] leading-[72px]  font-bold mb-8 lg:mb-5 md:mt-8 lg:mt-6 text-[#F4F9FA]">
           IIIS
         </p>

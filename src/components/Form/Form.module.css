@@ -1,11 +1,13 @@
 .bg{
 background-image: url(../../assets/images/blue-logo.png);
 background-size: contain;
+background-position: right right;
 }
 
 .secbg{
     background-image: url(../../assets/images/blue-logo-right.png);
     background-size: contain;
+    background-position: left center;
 }
 .MBG{
     background-image: url(../../assets/images/transparent-logo.png);

@@ -63,32 +63,42 @@ body {
     padding: 10px;
   
   }
-}
-.boxes {
-  padding-left: 50px ;
-  padding-right: 50px ;
-  /* background: #000; */
+  .boxes {
+    padding-left: 50px ;
+    padding-right: 50px ;
+    /* background: #000; */
+  }
+  
+ 
+  #ABOUT{
+    
+  margin-top: -5px !important;
+  
+  
+  }
+  
+  
+  #BGL{
+  left: -120px;
+  }
+  #BGR{
+  right: -170px;
+  }
+
+  
 }
 
 #FORM {
-  position: absolute;
+  /* position: relative; */
   /* top: 20px; */
-  /* padding: 100px; */
+  padding: 100px;
   background-color: transparent;
 }
-#ABOUT{
-  
-margin-top: -5px !important;
-
-
-}
-
-
 
 
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-@media (min-width: 1066px) and (max-width: 1279px) {
+@media (min-width: 1089px) and (max-width: 1279px) {
   #RequestCont {
 
     width: 100%;
@@ -118,7 +128,7 @@ margin-top: -5px !important;
   }
 
   #FORM {
-    position: absolute;
+    position: relative;
     /* top: 20px; */
     padding: 100px;
     background-color: transparent;
@@ -129,4 +139,23 @@ margin-top: -5px !important;
     display: flex;
     gap: 0px;
   }
+  #BGL{
+    right: 100%;
+    }
+    #BGR{
+    left: 75%;
+    }
+   
+  
+}
+
+
+
+@media (min-width: 1278px)  {
+    #BGL{
+    right: 100%;
+    }
+    #BGR{
+    left: 83%;
+    }
 }
