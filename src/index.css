@@ -79,12 +79,16 @@ body {
   
   
   #BGL{
-  left: -120px;
+  left: 20%;
   }
   #BGR{
-  right: -170px;
+  right: 20%;
   }
-
+#SCALE{
+  scale: 85%;
+  /* background: #000;  */
+  padding-left: 100px;
+}
   
 }
 
@@ -158,4 +162,5 @@ body {
     #BGR{
     left: 83%;
     }
+  
 }

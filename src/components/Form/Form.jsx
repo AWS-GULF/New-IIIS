@@ -4,29 +4,34 @@ import { useTranslation } from "react-i18next";
 
 function ContactForm({ lang }) {
   const { t } = useTranslation();
+  console.log(window.outerWidth);
+  
   return (
     <div
       className="relative capitalize lg:top-[-200px] w-full lg:min-h-screen flex flex-col items-center justify-center mb-5 lg:mb-0 bg-white px-4 md:px-0 overflow-hidden"
       id="form"
     >
       <div
-        className={`${styles.bg} hidden lg:block absolute top-28 left-[-65px] w-1/3 h-[70%] bg-cover bg-no-repeat`} id="BGL"
+        className={`${styles.bg} hidden lg:block absolute top-28 xl:left-[.8%]  lg:left-[-65px] w-1/3 h-[70%] bg-cover bg-no-repeat`}
       ></div>
       <div
-        className={`${styles.secbg} hidden lg:block absolute top-28 right-[-320px] w-1/3 h-[70%] bg-cover bg-no-repeat`} id="BGR"
+        className={`${styles.secbg} hidden lg:block absolute top-28 xl:left-[80%] lg:right-[-150px]  w-1/3 h-[70%] bg-cover bg-no-repeat`}
       ></div>
       <div
-        className={`${styles.MBG} right-[130px]  md:block lg:hidden hidden z-[11] absolute w-full h-[70%] bg-cover bg-no-repeat`}
+        className={`${styles.MBG} right-[210px]  md:block lg:hidden hidden z-[11] absolute w-full h-[70%] bg-cover bg-no-repeat`}
       ></div>
 
       <div
-        className="relative z-10  w-full max-w-3xl bg-white p-3 rounded-lg text-center lg:mt-36 mt-20 bg-red "
+        className="relative z-10  w-full max-w-3xl bg-white p-3 rounded-lg text-center lg:mt-36 mt-5  "
         id="FORM"
       >
-        <h2 className="text-2xl font-bold text-[#24346D] text-[42px] font-taj mb-20">
+        <h2 className="text-2xl font-bold text-[#24346D] text-[42px] font-taj mb-20 mt-[-40%] lg:pt-20 lg:pb-10 pb-28 pt-32">
           {t("let's")}!
         </h2>
-        <form className=" mt-6 space-y-6 px-0 md:px-20 lg:px-0">
+        <form
+          className=" mt-6 space-y-6 px-0 md:px-20 lg:px-0 scale-[130%] lg:scale-125"
+          id="SCALE"
+        >
           <div className="flex flex-col md:flex-row gap-4">
             <div
               className={`relative w-full md:w-1/2 ${
@@ -126,8 +131,8 @@ function ContactForm({ lang }) {
 
           <button
             type="submit"
-            id="SEND"
-            className=" rounded bg-gradient-to-r transition-all duration-100 hover:text-white bg-linear-to-r from-[#0395A5] to-[#213B71] hover:bg-gradient-to-l hover:from-[#213B71]to-[#0395A5] text-white font-semibold px-16 py-3 lg:w-46 flex-nowrap  mt-10"
+            className="   rounded bg-gradient-to-r transition-all duration-100 hover:text-white bg-linear-to-r 
+            from-[#0395A5] to-[#213B71] hover:bg-gradient-to-l hover:from-[#213B71]to-[#0395A5] text-white font-semibold px-16 py-3 lg:w-46 flex-nowrap  mt-10"
           >
             {t("send")}
           </button>
