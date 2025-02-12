@@ -67,7 +67,7 @@ export default function Navbar() {
 
 
         <a className="cursor-pointer text-xl md:ms-[-50px] lg:ms-0">
-          <img src={isRTL ? logoRtl : logo} className="w-[110px] h-[70px] ms-3 lg:ms-0" alt="Logo" />
+          <img src={isRTL ? logoRtl : logo} className="w-[110px] py-2 h-[70px] ms-3 lg:ms-0" alt="Logo" />
         </a>
       </div>
 {/* ///////////////////////////////////////////////////////////////////////////////// */}
@@ -91,14 +91,14 @@ export default function Navbar() {
             <a id="Request"  href="#form">{t("request")}</a>
           </li>
         </ul>
-        <div className=" lg:w-fit mt-3 lg:mt-0 text-center   lg:flex top-[30%] left-0 absolute lg:relative     " id="nav-btn">
-        <button onClick={toggleLanguage} className=" rounded text-[20px] h-[40px] px-[14px]  pb-1 bg-[#24346D] text-white font-bold">
+        <div className=" lg:w-fit mt-3 lg:mt-0 text-center   lg:flex top-[30%] left-0 absolute lg:relative  safari   " id="nav-btn">
+        <button onClick={toggleLanguage} className=" rounded text-[20px] h-[40px] px-[14px]  pb-1 bg-[#24346D] text-white font-bold" id="LNG">
           {t("lng")}
         </button>
       </div>
       </div>
-      <div className={` lg:w-fit mt-3 lg:mt-0 text-center z-50   top-[20%]  absolute lg:relative lg:hidden  ${ isRTL? "right-[0px]" :"left-[0px]"}   `}>
-        <button onClick={toggleLanguage} className=" rounded text-[16px] h-[45px] w-[40px] px-3  bg-[#24346D] text-white font-bold fixed">
+      <div className={` lg:w-fit mt-3 lg:mt-0 text-center z-50   top-[20%]  absolute lg:relative lg:hidden  ${ isRTL? "right-[0px]" :"left-[0px]"}  ` } >
+        <button onClick={toggleLanguage} className=" rounded text-[16px] h-[45px] w-[40px] px-3  bg-[#24346D] text-white font-bold fixed"  >
           {t("lng")}
         </button>
       </div>

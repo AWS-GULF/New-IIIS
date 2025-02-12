@@ -12,11 +12,30 @@ import './index.css'
 import "./App.css"
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Whatsapp from './components/whatsapp/Whatsapp'
+// import Browser from './components/Browser/Browser'
+
+
+
+
+
+
+
+
 
 function App() {
+  const userAgent = navigator.vendor;
+  console.log(userAgent);
+  
+
+
 const { t, i18n } = useTranslation();
   const [isRTL, setIsRTL] = useState(i18n.language === "ar");
   const lang = i18n.language
+
+
+
+
+  
   // console.log(lang);
   
 
@@ -31,6 +50,7 @@ const { t, i18n } = useTranslation();
     <Plans  isRTL={isRTL} i18n={i18n.language}/>
     <Form lang={lang} />
     <Whatsapp/>
+
     <Footer/>
   
    

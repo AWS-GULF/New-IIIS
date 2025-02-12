@@ -45,7 +45,7 @@ const Plans = ({ isRTL, i18n }) => {
       
         <div
           className={`bg-white p-6 md:p-8 lg:p-10 lg:pb-48 md:pb-20 md:w-[50%] border-2 ${
-            isMobileOrTablet ? "border-[#009DAA] w-[80%] m-auto flex flex-col text-center items-center justify-center scale-100 mb-[25px]" 
+            isMobileOrTablet ? "border-[#009DAA] w-[80%] m-auto flex flex-col text-center items-center justify-center scale-100 mb-[5px]" 
             : "w-3/4 md:w-1/3 border-[#009DAA] text-left"
           }
           transition-all duration-300 ${isInRange ? "h-[500px]" : "h-auto"} ${

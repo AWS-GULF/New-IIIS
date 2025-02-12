@@ -68,12 +68,12 @@ export default function ContentFilter({ isRTL}) {
   return (
     <div className=" font-taj flex-col  " id="features">
     
-      <div className="lg:flex lg:justify-center lg:flex-row lg:gap-2 flex-col mx-16  boxes">
+      <div className="lg:flex lg:justify-center lg:flex-row lg:gap-2  flex-col mx-16  boxes" id="Boxes">
         {categories.map((category, index) => (
           <button
             key={index}
             onClick={() => setSelectedCategoryIndex(index)}
-            className={`lg:px-10 lg:py-8 py-4 my-4 lg:mb-4 rounded-lg w-full font-bold transition-all shadow-xl box ${
+            className={`lg:px-10 lg:py-8 py-4 my-4 lg:mb-4 rounded-lg w-full font-bold transition-all shadow-md box ${
               selectedCategoryIndex === index
                 ? "bg-gradient-to-b from-[#0395A5] to-[#213D72] text-white"
                 : "bg-white text-black border"

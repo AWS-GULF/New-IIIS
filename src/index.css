@@ -2,96 +2,131 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
-  overflow:auto;
+html,
+body {
+  overflow: auto;
   scroll-behavior: smooth;
 }
-
 
 ::-webkit-scrollbar {
   width: 10px !important;
   height: 10px !important;
 }
 
-
 ::-webkit-scrollbar-track {
-  background: #1e293b !important; 
+  background: #1e293b !important;
   border-radius: 10px !important;
 }
 
-
 ::-webkit-scrollbar-thumb {
-  background: #078B9F !important;
+  background: #078b9f !important;
   border-radius: 10px !important;
   border: 2px solid #1e293b !important;
   transition: background 0.3s ease-in-out !important;
 }
 
-
 ::-webkit-scrollbar-thumb:hover {
-  background: #078B9F !important;
+  background: #078b9f !important;
 }
-
 
 * {
   scrollbar-width: thin !important;
-  scrollbar-color: #078B9F #DDDDDD !important;
-} 
+  scrollbar-color: #078b9f #dddddd !important;
+}
 
+#LNG {
+  text-align: center;
+  padding: 3px;
+  align-content: center;
+  display: flex;
+  width: 50px;
+  height: 40px;
+  justify-content: center;
+}
 
-
-
-
-
-
-
-@media (min-width: 1025px) and (max-width: 1279px) {
-  #RequestCont{
+@media (min-width: 1024px) and (max-width: 1090px) {
+  #RequestCont {
     width: 100%;
     /* background: #000; */
- display: flex;
- width: 200px;
-text-align: center;
+    display: flex;
+    width: 200px;
+    text-align: center;
   }
-  #Request{
-    flex-wrap: nowrap;
-    width: 100%;
-    
-  }
-
-
-  .boxes{
-
-    overflow: hidden;
-
-  }
-  .box{
-
-  width: 150px;
- text-align: center;
- justify-content: center;
- display: flex;
-justify-items: center;
-align-items: center;
- flex-direction: column;
+  .box {
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
   
   }
+}
+.boxes {
+  padding-left: 50px ;
+  padding-right: 50px ;
+  /* background: #000; */
+}
 
-  #FORM{
-   position: absolute;
-   /* top: 20px; */
-   padding: 100px;
-   background-color: transparent;
+#FORM {
+  position: absolute;
+  /* top: 20px; */
+  /* padding: 100px; */
+  background-color: transparent;
+}
+#ABOUT{
   
-  }
-#PLANS{
-/* background-color: black; */
-
-display: flex ;
-gap: 10px;
-
-
+margin-top: -5px !important;
 
 
 }
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media (min-width: 1066px) and (max-width: 1279px) {
+  #RequestCont {
+
+    width: 100%;
+    /* background: #000; */
+    display: flex;
+    width: 200px;
+    text-align: center;
+  }
+
+  #Request {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .boxes {
+    overflow: hidden;
+  }
+  .box {
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  #FORM {
+    position: absolute;
+    /* top: 20px; */
+    padding: 100px;
+    background-color: transparent;
+  }
+  #PLANS {
+    /* background-color: black; */
+
+    display: flex;
+    gap: 0px;
+  }
 }
