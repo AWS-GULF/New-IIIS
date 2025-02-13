@@ -1,11 +1,11 @@
 import React from "react";
-import about from "./About.module.css";
+// import about from "./About.module.css";
 import tm from "../../assets/images/Frame 586.png";
 import logo from "../../assets/images/transparent-logo.png";
 import logortl from "../../assets/images/transparent-logo.png";
 import { useTranslation } from "react-i18next";
 
-export default function About({ isRTL ,i18n}) {
+export default function AdminInterface({ isRTL ,i18n}) {
   const { t } = useTranslation();
   // console.log(i18n.language);
   
@@ -26,11 +26,11 @@ export default function About({ isRTL ,i18n}) {
         />
 
     
-        <div className={`w-full lg:w-[45%]  text-${isRTL ? "right" : "left"} lg:mt-[-20px]   mb-36 lg:mb-0 ps-4 lg:ps-8 ${i18n.language==='ar' && "text-start"}`} id="ABOUT">
+        <div className={`w-full lg:w-[45%]   text-${isRTL ? "right" : "left"} lg:mt-[-20px]   mb-36 lg:mb-0 ps-4 lg:ps-8 ${i18n.language==='ar' && "text-start"}`} id="ABOUT">
           <h2 className="text-4xl mb-10 font-taj font-bold text-[#24346D] lg:text-[42px]">
-            {t("aboutTitle")} 
+            {t("adminTitle")} 
           </h2>
-          <p className="text-[#2e438f] font-taj front-[300] lg:text-[20px] text-[18px] lg:leading-10 text-justify-pretty lg:text-justify p-2  md:pb-20 lg:pb-0 md:text-[20px]">{t("aboutCont")} </p>
+          <p className="text-[#2e438f] font-taj front-[300] lg:text-[20px] text-[18px] lg:leading-10 text-justify-pretty lg:text-justify p-2  md:pb-20 lg:pb-0 md:text-[20px]">{t("adminDesc")} </p>
         </div>
 
     

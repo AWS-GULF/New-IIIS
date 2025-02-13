@@ -12,6 +12,7 @@ import './index.css'
 import "./App.css"
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Whatsapp from './components/whatsapp/Whatsapp'
+import AdminInterface from './components/Admin Interface/AdminInterface'
 // import Browser from './components/Browser/Browser'
 
 
@@ -46,6 +47,7 @@ const { t, i18n } = useTranslation();
     <Hero i18n={i18n} />
     <About isRTL={isRTL} t={t} i18n={i18n}/>
     <ContentFilter isRTL={isRTL} i18n={i18n}/>
+    <AdminInterface isRTL={isRTL} t={t} i18n={i18n}/>
     <Meet  isRTL={isRTL} i18n={i18n.language}/>
     <Plans  isRTL={isRTL} i18n={i18n.language}/>
     <Form lang={lang} />

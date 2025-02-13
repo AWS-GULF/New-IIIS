@@ -2,7 +2,7 @@ import React from "react";
 
 const Whatsapp = () => {
   const handleClick = () => {
-    window.open("https://wa.me/yourphonenumber", "_blank");
+    window.open("https://wa.me/+201101765889", "_blank");
   };
 
   return (

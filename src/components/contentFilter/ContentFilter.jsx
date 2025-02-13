@@ -29,32 +29,32 @@ export default function ContentFilter({ isRTL}) {
     {
       id: 1,
       category: t("INcateg"),
-      features: [t("IMfeature1"), t("IMfeature2"), t("IMfeature3"), t("IMfeature4")],
+      features: [t("IMfeature1")],
     },
     {
       id: 2,
       category: t("ITcateg"),
-      features: [t("ITfeature1"), t("ITfeature2")],
+      features: [t("ITfeature1")],
     },
     {
       id: 3,
       category: t("EMcateg"),
-      features: [t("Emfeature1"), t("Emfeature2")],
+      features: [t("Emfeature1")],
     },
     {
       id: 4,
       category: t("KNcateg"),
-      features: [t("Knfeature1"), t("Knfeature2")],
+      features: [t("Knfeature1")],
     },
     {
       id: 5,
       category: t("PRcateg"),
-      features: [t("profeature1"), t("profeature2")],
+      features: [t("profeature1")],
     },
     {
       id: 6,
       category: t("CHcateg"),
-      features: [t("changefeature1"), t("changefeature2")],
+      features: [t("changefeature1")],
     },
   ];
 

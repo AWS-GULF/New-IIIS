@@ -33,7 +33,7 @@
 
 
 
-  ,"IMfeature1":"feature 1 List1"
+  ,"IMfeature1":"Improved management of problems and incidents through seamless communication."
   ,"IMfeature2":"feature 1 List1"
   ,"IMfeature3":"feature 1 List1"
   ,"IMfeature4":"feature 1 List1"
@@ -42,24 +42,24 @@
 
 
 
-  ,"ITfeature1":"Asset 1 List1"
+  ,"ITfeature1":"Useful for businesses relying on maintenance and after-sales processes to limit and manage projects."
   ,"ITfeature2":"Asset 1 List1"
 
 
 
-  ,"Emfeature1":"employee 1 List1"
+  ,"Emfeature1":"Facilitates a healthy work environment by simplifying problem communication and resolution."
   ,"Emfeature2":"employee 1 List1"
 
 
 
-  ,"Knfeature1":"knowledge 1 List1"
+  ,"Knfeature1":"Guarantees the retention of problems as references, creating a database of company issues and solutions"
   ,"Knfeature2":"knowledge 1 List1"
 
-  ,"profeature1":"problem knowledge 1 List1"
+  ,"profeature1":"An effective system for managing and solving problems, ensuring smooth communication between employees and customers."
   ,"profeature2":"problem knowledge 1 List1"
 
 
- ,"changefeature1":"problem knowledge 1 List1"
+ ,"changefeature1":"Reduces problem resolution time, enhancing employee productivity and overall operational efficiency."
   ,"changefeature2":"problem knowledge 1 List1"
 
 
@@ -97,7 +97,9 @@
   "email":"email",
   "phone":"phone"
   ,"msg":"message"
-,"send":"Send"
+,"send":"Send",
 
 
+"adminTitle": "Admin Interface",
+"adminDesc": "Admin Interface: Exclusively designed for administrators, this interface provides a comprehensive overview of all external tickets allocated to thetechnical team. Administrators can efficiently manage and assign tickets,ensuring a smooth workflow for their technical team. Additionally,administrators have the capability to add companies (clients), countries,cities, and departments, ensuring a dynamic and adaptive system."
 }
