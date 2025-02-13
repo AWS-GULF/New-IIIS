@@ -1,6 +1,6 @@
 import React from "react";
 // import about from "./About.module.css";
-import tm from "../../assets/images/Frame 586.png";
+import tm from "../../assets/images/right.png";
 import logo from "../../assets/images/transparent-logo.png";
 import logortl from "../../assets/images/transparent-logo.png";
 import { useTranslation } from "react-i18next";
@@ -37,7 +37,7 @@ export default function AdminInterface({ isRTL ,i18n}) {
         <div className="w-[40%] flex justify-start items-end mt-[-30px] m-auto lg:ms-16 ">
           <img
             src={tm}
-            className={`lg:scale-[150%] scale-[260%]  lg:mb-10 pb-8 md:pb-20 lg:relative ms-4 md:ms-8 lg:ms-8 ${i18n.language==='en' && "lg:left-[100px] top-10" } ${i18n.language==='ar' && "lg:left-[-20px] top-10" }`}
+            className={`lg:scale-[150%] scale-[260%]  lg:mb-10 pb-8 md:pb-20 lg:relative ms-[-15px] md:ms-[-40px] lg:ms-8 ${i18n.language==='en' && "lg:left-[20px] top-10" } ${i18n.language==='ar' && "lg:left-[-85px] top-10" }`}
             alt=""
           />
         </div>
