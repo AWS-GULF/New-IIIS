@@ -246,7 +246,7 @@ footer {
   top: 50%;
   transform: translateY(-50%);
   left: 10px;
-  color: #ddd;
+  color: #;
   pointer-events: none;
   z-index: 1;
 }
